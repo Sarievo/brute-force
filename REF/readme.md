@@ -1,4 +1,4 @@
-Basic idea: We have a generator, a trivial solution and a potentially optimal answer that could be wrong.
+Basic idea: We have a generator, a trivial solution and a potentially optimal solution that could be wrong.
 
 Using a bash script: 
 1. within a endless loop, we use the generator to generate the test cases using the cases' number as the random seed
