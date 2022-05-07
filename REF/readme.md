@@ -6,3 +6,5 @@ Using a bash script:
 3. compare their output against each other, if they're different, we are getting the wrong answer
 
 We can test the solution thousand times in 1 minute.
+
+Sometimes the brute-force solution is much easier to come up with, but it will very likely get a TLE. So we could use the trivial solution as a ground to test against further optimal solutions. But if the generator/checker is complex, it may not worth to do so and better put our energy to better use.
