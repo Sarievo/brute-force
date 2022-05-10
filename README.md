@@ -7,3 +7,8 @@ Ideas for doing brute-force and stress-testing during competitive programming.
 
 ![stress-testing](https://ali-ibrahim137.github.io//assets/img/Stress%20Testing/1.jpeg)
 Image from Ali-Ibrahim
+
+
+Using my `script.sh`:
+
+Compile the generator as `gen`, the one of you solutions as `a` (the solution you want to check), the other one as `cmp` (the always correct solution, may it be slow), then run the script to check the testing results. PS: mswindows may insert \r$ when you edit the UNIX script file and cause it failed to run, use `sed 's/\r$//' file > file_fixed` to recover it.
